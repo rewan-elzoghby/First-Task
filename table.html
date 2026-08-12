@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+</head>
+<body>
+
+    <h1><u>Table:</u></h1>
+
+    <table border="2" cellpadding="10" cellspacing="3" width="650">
+        <tr bgcolor="lightblue">
+            <th width="33%">Name</th>
+            <th width="33%">Age</th>
+            <th width="34%">Details</th>
+        </tr>
+
+        <tr bgcolor="lightgray">
+            <td><font style="color: blue;">John</font> </td>
+            <td align="center">25</td>
+            <td rowspan="2">Merged Rows</td>
+        </tr>
+
+        <tr bgcolor="lightgray">
+            <td colspan="2" align="center">Merged Columns</td>
+        </tr>
+
+        <tr bgcolor="lightgray">
+            <td><font style="color: green;">Jane</font></td>
+            <td align="center">30</td>
+            <td>
+                <table border="1" width="100%">
+                    <tr>
+                        <td bgcolor="yellow" align="center">Nested Table</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>John Doe</td>
+            <td align="center">25</td>
+            <td nowrap>This is some long text that will not wrap.</td>
+        </tr>
+    </table>
+
+</body>
+</html>
